@@ -1,5 +1,9 @@
-/ Light theme based on nYNAB 2026 color scheme
+/* Light theme based on nYNAB 2026 color scheme */
+/* Theme is in HSL (Hue, Saturation, Lightness) format to make it easy for you to change the hue, saturation or lightness of any color to your satisfaction without knowing hex codes. */
+/* Higher percentage is more saturated and lighter. */
 
+:root {
+/*Admonitions */
 --color-warningBackground: hsl(54, 95%, 76%);
 --color-warningTextLight: hsl(47, 79%, 51%);
 --color-warningBorder: hsl(47, 79%, 51%);
@@ -19,6 +23,8 @@
 --color-noticeBorder: hsl(86, 64%, 54%);
 --color-noticeText: hsl(86, 64%, 40%);
 --color-noticeTextDark: hsl(88, 72%, 15%);
+
+/* Bare Buttons */
 --color-buttonBareText: hsl(234, 87%, 37%);
 --color-buttonBareTextHover: hsl(234, 87%, 37%);
 --color-buttonBareBackground: transparent;
@@ -26,6 +32,8 @@
 --color-buttonBareBackgroundActive: rgba(100, 100, 100, .25);
 --color-buttonBareBackgroundHover: rgba(100, 100, 100, .15);
 --color-buttonBareDisabledText: hsl(234, 27%, 70%);
+
+/* Budget Page */
 --color-budgetNumberNeutral: hsl(0, 2%, 10%);
 --color-budgetNumberPositive: hsl(0, 2%, 10%);
 --color-templateNumberUnderFunded: hsl(40, 80%, 40%);
@@ -39,15 +47,18 @@
 --color-templateNumberFunded: hsl(88, 71%, 30%);
 --color-toBudgetPositive: hsl(88, 71%, 30%);
 --color-toBudgetZero: hsl(89, 70%, 30%);
+
 --color-calendarItemBackground: hsl(211, 40%, 23%);
 --color-calendarBackground: hsl(209, 63%, 16%);
 --color-calendarCellBackground: hsl(240, 49%, 94%);
 --color-calendarText: hsl(234, 98%, 98%);
 --color-calendarItemText: hsl(234, 100%, 90%);
 --color-calendarSelectedBackground: hsl(234, 22%, 50%);
+
 --color-cardBackground: hsl(0, 0%, 100%);
 --color-cardShadow: hsl(234, 35%, 30%);
 --color-cardBorder: hsl(234, 87%, 37%);
+
 --color-checkboxText: hsl(0, 0%, 100%);
 --color-checkboxToggleDisabled: hsl(235, 10%, 79%);
 --color-checkboxToggleBackground: hsl(234, 8%, 50%);
@@ -55,9 +66,11 @@
 --color-checkboxBackgroundSelected: hsl(234, 85%, 55%);
 --color-checkboxBorderSelected: hsl(234, 85%, 55%);
 --color-checkboxToggleBackgroundSelected: hsl(234, 87%, 43%);
+
 --color-floatingActionBarText: hsl(234, 98%, 98%);
 --color-floatingActionBarBackground: hsl(234, 82%, 60%);
 --color-floatingActionBarBorder: hsl(234, 82%, 60%);
+
 --color-formInputBackgroundSelected: hsl(0, 0%, 100%);
 --color-formInputTextSelection: hsl(240, 49%, 94%);
 --color-formInputBackground: hsl(234, 98%, 98%);
@@ -73,9 +86,12 @@
 --color-formInputShadowSelected: hsl(234, 97%, 70%);
 --color-formInputBackgroundSelection: hsl(234, 80%, 50%);
 --color-formInputBorderSelected: hsl(234, 80%, 50%);
+
 --color-markdownLight: hsl(234, 93%, 96%);
 --color-markdownNormal: hsl(234, 96%, 88%);
 --color-markdownDark: hsl(234, 82%, 60%);
+
+/* Menus */
 --color-buttonMenuSelectedBackground: hsl(54, 95%, 76%);
 --color-buttonMenuSelectedBorder: hsl(54, 95%, 76%);
 --color-buttonMenuSelectedBackgroundHover: hsl(53, 88%, 66%);
@@ -103,6 +119,7 @@
 --color-menuAutoCompleteTextHover: hsl(88, 73%, 85%);
 --color-menuBorderHover: hsl(234, 93%, 96%);
 --color-menuItemTextSelected: hsl(234, 97%, 70%);
+
 --color-mobileNavBackground: hsl(0, 0%, 100%);
 --color-mobileHeaderTextHover: rgba(200, 200, 200, .15);
 --color-mobileHeaderTextSubdued: hsl(235, 10%, 79%);
@@ -116,8 +133,10 @@
 --color-mobileNavItemSelected: hsl(234, 80%, 50%);
 --color-mobileTransactionSelected: hsl(234, 80%, 50%);
 --color-mobileConfigServerViewTheme: hsl(234, 80%, 50%);
+
 --color-modalBackground: hsl(0, 0%, 100%);
 --color-modalBorder: hsl(0, 0%, 100%);
+
 --color-buttonNormalBackground: hsl(0, 0%, 100%);
 --color-buttonNormalBackgroundHover: hsl(0, 0%, 100%);
 --color-buttonNormalSelectedText: hsl(0, 0%, 100%);
@@ -129,10 +148,13 @@
 --color-buttonNormalText: hsl(0, 2%, 10%);
 --color-buttonNormalTextHover: hsl(0, 2%, 10%);
 --color-buttonNormalSelectedBackground: hsl(234, 80%, 46%);
+
 --color-numberNegative: hsl(356, 75%, 53%);
 --color-numberNeutral: hsl(0, 2%, 10%);
 --color-numberPositive: hsl(89, 67%, 31%);
+
 --color-overlayBackground: rgba(0, 0, 0, 0.3);
+
 --color-pageText: hsl(0, 2%, 10%);
 --color-pageBackgroundLineTop: hsl(0, 0%, 100%);
 --color-pageBackground: hsl(234, 98%, 98%);
@@ -147,6 +169,7 @@
 --color-pageTextLinkLight: hsl(234, 100%, 69%);
 --color-pageTextLink: hsl(234, 80%, 46%);
 --color-pageTextPositive: hsl(234, 87%, 43%);
+
 --color-pillBackgroundLight: hsl(234, 98%, 98%);
 --color-pillBackground: hsl(234, 100%, 90%);
 --color-pillBorder: hsl(234, 100%, 90%);
@@ -157,6 +180,7 @@
 --color-pillTextSelected: hsl(234, 97%, 27%);
 --color-pillBorderSelected: hsl(234, 80%, 50%);
 --color-pillTextHighlighted: hsl(234, 87%, 43%);
+
 --color-buttonPrimaryText: hsl(0, 0%, 100%);
 --color-buttonPrimaryTextHover: hsl(0, 0%, 100%);
 --color-buttonPrimaryDisabledText: hsl(0, 0%, 100%);
@@ -166,6 +190,8 @@
 --color-buttonPrimaryBackgroundHover: hsl(234, 97%, 70%);
 --color-buttonPrimaryBackground: hsl(234, 80%, 50%);
 --color-buttonPrimaryBorder: hsl(234, 80%, 50%);
+
+/* Reports */
 --color-reportsRed: hsl(1, 81%, 63%);
 --color-reportsBlue: hsl(234, 95%, 63%);
 --color-reportsGreen: hsl(164, 100%, 31%);
@@ -185,6 +211,7 @@
 --color-reportsNumberNeutral: hsl(0, 2%, 10%);
 --color-reportsNumberPositive: hsl(91, 61%, 32%);
 --color-reportsChartFill: hsl(234, 100%, 82%);
+
 --color-sidebarItemBackgroundHover: hsl(238, 29%, 34%);
 --color-sidebarItemBackgroundPending: hsl(54, 95%, 76%);
 --color-sidebarItemBackgroundFailed: hsl(0, 90%, 69%);
@@ -194,6 +221,7 @@
 --color-sidebarItemBackgroundPositive: hsl(86, 64%, 54%);
 --color-sidebarItemAccentSelected: hsl(234, 99%, 78%);
 --color-sidebarItemTextSelected: hsl(238, 100%, 90%);
+
 --color-tableText: hsl(0, 2%, 10%);
 --color-tableRowHeaderText: hsl(211, 40%, 23%);
 --color-tableBackground: hsl(0, 0%, 100%);
@@ -212,13 +240,18 @@
 --color-tableRowBackgroundHighlight: hsl(235, 98%, 95%);
 --color-tableBorderHover: hsl(234, 82%, 60%);
 --color-tableBorderSelected: hsl(234, 80%, 50%);
+
 --color-noteTagText: hsl(0, 0%, 0%);
 --color-noteTagBackground: hsl(234, 100%, 92%);
 --color-noteTagDefault: hsl(234, 100%, 92%);
 --color-noteTagBackgroundHover: hsl(234, 96%, 88%);
+
 --color-tooltipBackground: hsl(0, 0%, 100%);
 --color-tooltipBorder: hsl(234, 100%, 90%);
 --color-tooltipText: hsl(0, 2%, 10%);
+
 --color-upcomingBackground: hsl(234, 93%, 96%);
 --color-upcomingBorder: hsl(234, 80%, 50%);
 --color-upcomingText: hsl(234, 87%, 37%);
+
+}
