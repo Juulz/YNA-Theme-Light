@@ -198,7 +198,7 @@
 --color-reportsGray: hsl(236, 8%, 64%);
 --color-reportsLabel: hsl(211, 40%, 23%);
 --color-reportsInnerLabel: hsl(211, 40%, 23%);
---color-chartQual1: hsl(238, 98%, 66%);
+--color-chartQual1: #5359fd;
 --color-chartQual2: hsl(86, 64%, 54%);
 --color-chartQual3: hsl(48, 92%, 54%);
 --color-chartQual4: hsl(356, 54%, 59%);
