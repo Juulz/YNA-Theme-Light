@@ -216,11 +216,13 @@
 --color-sidebarItemBackgroundPending: hsl(54, 95%, 76%);
 --color-sidebarItemBackgroundFailed: hsl(0, 90%, 69%);
 --color-sidebarItemText: hsl(0, 0%, 100%);
---color-sidebarBudgetName: hsl(0, 0%, 100%);
 --color-sidebarBackground: hsl(237, 51%, 23%);
 --color-sidebarItemBackgroundPositive: hsl(86, 64%, 54%);
 --color-sidebarItemAccentSelected: hsl(234, 99%, 78%);
 --color-sidebarItemTextSelected: hsl(238, 100%, 90%);
+--color-sidebarBudgetName: #d3c031;
+--color-tableTextItemAdded: #0000ff;
+--color-sidebarItemTextUpdated: #d3c031;  
 
 --color-tableText: hsl(0, 2%, 10%);
 --color-tableRowHeaderText: hsl(211, 40%, 23%);
