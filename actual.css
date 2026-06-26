@@ -220,9 +220,9 @@
 --color-sidebarItemBackgroundPositive: hsl(86, 64%, 54%);
 --color-sidebarItemAccentSelected: hsl(234, 99%, 78%);
 --color-sidebarItemTextSelected: hsl(238, 100%, 90%);
---color-sidebarBudgetName: #d3c031;
+--color-sidebarBudgetName: #94d53f;
 --color-tableTextItemAdded: #0000ff;
---color-sidebarItemTextUpdated: #d3c031;  
+--color-sidebarItemTextUpdated: #94d53f;  
 
 --color-tableText: hsl(0, 2%, 10%);
 --color-tableRowHeaderText: hsl(211, 40%, 23%);
