@@ -212,6 +212,9 @@
 --color-reportsNumberPositive: hsl(91, 61%, 32%);
 --color-reportsChartFill: hsl(234, 100%, 82%);
 
+--color-sidebarHeaderText: var(--color-sidebarBudgetName);
+--color-sidebarBrand: var(--color-sidebarBudgetName);
+  
 --color-sidebarItemBackgroundHover: hsl(238, 29%, 34%);
 --color-sidebarItemBackgroundPending: hsl(54, 95%, 76%);
 --color-sidebarItemBackgroundFailed: hsl(0, 90%, 69%);
